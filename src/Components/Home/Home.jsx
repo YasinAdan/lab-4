@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Auth from '../Auth/Auth';
-import Signup from '../Signup/Signup';
+import {Link} from 'react-router-dom';
+import './Home.scss';
 
 export default function Home() {
 
@@ -11,7 +11,11 @@ export default function Home() {
 
   return (
     <div className='home'>
-     
+      <h1>Welcome</h1>
+      <p>
+        This is a boiler monitoring system. Please login or signup to continue.
+      </p>
+      <Link to="/signup">Signup here</Link>
     </div>
   )
 }

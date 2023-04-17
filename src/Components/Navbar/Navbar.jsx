@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          EPIC
+          Boiler Monitor
           <i className="fab fa-firstdraft" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
